@@ -1,0 +1,29 @@
+#--------------------------------#
+#           Ender War            #
+#          by Djomobil           #
+#   with the idea of LaCalotte   #
+#--------------------------------#
+
+# The number of minimum players for the game #
+MinPlayers: 3
+
+# The number of maximum players for the game #
+MaxPlayers: 5
+
+# The layer where a player die #
+DieLayer: 0
+
+# The world name and coords of differents spawns #
+Locations:
+  worldname: world
+  Spawns:
+    # Spawn for every player who joined the server 
+    lobby: "0.5, 10.0, 0.5"
+    # Spawn for spectator when the game start, start at id 1 and (+1) for every spawn you want to add
+    spectator: "0.0, 20.0, 0.0"
+    Islands:
+      1: "100.0, 20.0, 100.0"
+      2: "200.0, 20.0, 100.0"
+      3: "300.0, 20.0, 100.0"
+      4: "400.0, 20.0, 100.0"
+      5: "500.0, 20.0, 100.0"

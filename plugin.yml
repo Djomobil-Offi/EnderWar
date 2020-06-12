@@ -1,0 +1,7 @@
+name: EnderWar
+author: Djomobil_Offi
+version: 1.0
+main: fr.djomobil.enderwar.EnderWar
+commands:
+  enderwar:
+    description: Default command for EnderWar plugin
